@@ -12,7 +12,6 @@ let seconds = 60;
 for (let i = 0; i < 17; i++) {
     rows[i] = document.createElement("div");
     rows[i].className = "game-row";
-    rows[i].setAttribute("id", "row-"+i)
 }
 
 
